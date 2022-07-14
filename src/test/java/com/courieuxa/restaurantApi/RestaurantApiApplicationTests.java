@@ -1,10 +1,10 @@
-package com.courieuxa.garageApp;
+package com.courieuxa.restaurantApi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GarageAppApplicationTests {
+class RestaurantApiApplicationTests {
 
 	@Test
 	void contextLoads() {

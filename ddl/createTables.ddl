@@ -1,4 +1,4 @@
-create table garageApp.car
+create table garageApp.product
 (
     id    varchar(36)  not null
         primary key,
