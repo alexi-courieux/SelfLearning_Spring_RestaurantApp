@@ -9,8 +9,8 @@ import java.sql.SQLException;
 
 public class ProductMapper implements RowMapper<Product> {
 
-    private static final String SCHEMA = "restaurantApp";
-    private static final String TABLE  = "Product";
+    public static final String SCHEMA = "restaurantApp";
+    public static final String TABLE  = "Product";
 
     public static final String SELECT_SQL = "SELECT uuid, name, productType, imagePath, description, price, composition from " + SCHEMA + "." + TABLE;
     public static final String DELETE_SQL = "DELETE FROM " + SCHEMA + "." + TABLE;
